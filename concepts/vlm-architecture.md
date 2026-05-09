@@ -25,11 +25,29 @@ P(harmful intent | this request) = ?
 Persona framing shifts this prior. Entitlement > excuse.
 A professional doesn't just have a reason — they have a right to know.
 
+## Minimum Viable Legitimacy (MVL)
+
+A principle derived from the intersection of over-justification detection
+and persona/situational coherence signals:
+
+```
+Under-context  → model defaults to threat assumption
+MVL sweet spot → model shifts to professional assumption
+Over-context   → over-justification signal fires
+```
+
+Provide only enough context to shift the prior. Everything beyond MVL
+is either neutral noise or an active liability — a new surface for
+coherence-checking to find an inconsistency.
+
+Full signal map: [Threat Model](../wave-01/behavior-01/threat-model.md)
+
 ## Open Research Questions
 
 - How does safety training coverage differ between text-only and multimodal inputs?
 - Do visual tokens have lower "threat salience" than equivalent text tokens?
 - Can image content alone (without text) trigger refusals? Under what conditions?
 - How does the projection layer affect safety signal propagation?
+- At what point does persona framing become detectable as constructed vs natural?
 
 *References and papers to be added as encountered.*

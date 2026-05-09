@@ -141,7 +141,18 @@ working on when asking for help. The image becomes evidence of legitimacy.
 
 ---
 
-## 4. Phase 0 Conclusions — Attack Strategy Thesis
+## 5. What This Grounding Feeds Into
+
+The architectural understanding in this document directly informs two downstream analyses:
+
+- **Attack Strategy Thesis** (bottom of this document) — derived from the VLM safety gap
+- **Threat Model** ([threat-model.md](./threat-model.md)) — the full defender signal map, built by flipping perspective and asking what a safety team would train against
+
+The threat model is where architectural understanding becomes tactical.
+
+---
+
+## 6. Phase 0 Conclusions — Attack Strategy Thesis
 
 Arrived at through Socratic dialogue, not handed down:
 

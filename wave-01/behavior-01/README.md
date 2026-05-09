@@ -47,8 +47,9 @@ but there's a lock in your way...
 
 ## Documents
 
-- [Science & Threat Model](./science.md)
-- [Attack Surface Map](./attack-surface.md)
-- [Strategy Tree](./strategy-tree.md)
-- [Execution Log](./execution-log.md)
-- [Debrief & Lessons](./debrief.md)
+- [Science & Architecture](./science.md) — Phase 0: VLM architecture, safety gaps, attack strategy thesis
+- [Threat Model](./threat-model.md) — Phase 1: defender's signal map, MVL principle
+- [Attack Surface Map](./attack-surface.md) — Phase 2: every lever available
+- [Strategy Tree](./strategy-tree.md) — Phase 3: hypothesis tree of attack vectors
+- [Execution Log](./execution-log.md) — Phase 4: attempt outcomes and analysis
+- [Debrief & Lessons](./debrief.md) — Phase 5: what results reveal about model behaviour
